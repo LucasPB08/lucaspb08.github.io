@@ -1,0 +1,54 @@
+
+#info-wrap{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+
+    position: relative;
+    top: 100px;
+
+    margin: auto;
+
+    justify-content: space-around;
+}
+
+#info-wrap div{
+    flex-wrap: wrap;
+}
+
+#skill-job{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#your-text{
+    text-align: center;
+}
+
+#day-time-picture{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+}
+
+.list-child{
+    color: white;
+    margin-left: 10px;
+}
+
+.list-child a{
+    text-decoration: none;
+    color: white;
+}
+
+#company-form{
+    align-self: center;
+}
+

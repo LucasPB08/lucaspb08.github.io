@@ -1,0 +1,25 @@
+#header{
+    display: flex;
+    height: 100px;
+
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: darkcyan;
+
+}
+
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header_text{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+body{
+    background-color: gray;
+}

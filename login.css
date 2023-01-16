@@ -1,0 +1,63 @@
+#login-wrap{
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    top: 200px;
+    border: solid 1px;
+    width: 25%;
+    margin:auto
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+
+}
+
+input{
+    display:block;
+    
+    height: 25px;
+}
+
+#name{
+    flex-grow: 1;
+    flex-basis: 120px;
+}
+
+#email{
+    flex-grow: 3;
+}
+
+select{
+    height: 32px;
+}
+
+#login{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#login-text{
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    height: 32px;
+    
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-button{
+    flex-grow: 1;
+}

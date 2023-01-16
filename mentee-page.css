@@ -1,0 +1,60 @@
+
+#lookup-mentor{
+    display:flex;
+    margin:auto;
+
+    position: relative;
+    top:100px;
+
+    width: 50%;
+    background-color: white;
+    padding: 40px;
+
+    /* justify-content: space-between; */
+
+}
+
+#filters{
+    display:flex;
+    flex-direction: column;
+    
+    flex-grow: 1;
+
+}
+
+#filters button{
+    align-self: flex-start;
+}
+
+#filtered-mentors{
+    display:flex;
+
+    flex-grow: 2;
+
+    flex-direction: column;
+}
+
+.mentor{
+    display:flex;
+    flex-direction: row;
+    border: solid 1px;
+}
+
+.mentor ul{
+    list-style: none;
+    display:flex;
+}
+
+.mentor ul li{
+    margin-left: 10px;
+}
+
+.mentor a{
+    text-decoration: none;
+    color: black;
+}
+
+.mentor h3{
+    position: relative;
+    left: 50px;
+}

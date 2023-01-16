@@ -1,0 +1,35 @@
+
+#profile{
+    display: flex;
+    margin:auto;
+    width:50%;
+
+    position: relative;
+
+    flex-direction: column;
+    
+
+    background-color: white;
+}
+
+#child1{
+    display:flex;
+    justify-content: space-around;
+}
+
+#child2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#request{
+    align-self: center;
+}
+
+#request form{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    text-align: center;
+}
