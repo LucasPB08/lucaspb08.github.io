@@ -1,0 +1,28 @@
+button{
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    background: #4DC70D;
+
+    border-radius: 50px;
+    
+}
+
+button:hover{
+            color: black;
+            border: none;
+            background: #47AC11;
+            transform: scale(0.95);            
+}
+
+input{
+    border-radius: 50px;
+    border-color: lightgray;
+    border: solid 1px;
+}
+
+select{
+    border-radius: 50px;
+    border-color: lightgray;
+    border: solid 1px;
+}

@@ -13,7 +13,7 @@
     </style>
 
     <link rel="stylesheet" href="signup.css">
-
+    <link rel="stylesheet" href="form-style.css">
     <link rel="stylesheet" href="defaultLook.css">
 </head>
 <body>
@@ -26,43 +26,62 @@
 
     </div>
 
-    <div id="signup-wrap">
+    <div id="wrap">
 
         <p id="signup">Sign up</p>
 
         <form>
-            <input type="text", for="uderID-field" placeholder="User ID">
+            <div>
+                <input type="text", for="uderID-field" placeholder="User ID">
+                
+                <input type="text" for="name-field" placeholder="Name">
+            </div>
+
             <br>
-            <input type="text" for="name-field" placeholder="Name">
+            <div>
+                <input type="password" for="password_field" placeholder="Password">
+                
+                <input type="text" for="country-field" placeholder="Country">
+            </div>
+
             <br>
-            <input type="password" for="password_field" placeholder="Password">
+            <div>
+                <input type="text" for="zipCode-field" placeholder="Zipcode">
+                
+                <input type="text" for="address-field" placeholder="Address">
+            </div>
+            
             <br>
-            <input type="text" for="country-field" placeholder="Country">
+
+            <div>
+                <input type="text" for="language-field" placeholder="Language">
+                
+                <input type="email", for="email_field" placeholder="Email">
+            
+            </div>
+
             <br>
-            <input type="text" for="zipCode-field" placeholder="Zipcode">
-            <br>
-            <input type="text" for="address-field" placeholder="Address">
-            <br>
-            <input type="text" for="language-field" placeholder="Language">
-            <br>
-            <input type="email", for="email_field" placeholder="Email">
-            <br>
-            <select for="sex">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <br>
-            <select for="type-of-user-field">
-                <option value="mentor">Mentor</option>
-                <option value="mentee">Mentee</option>
-            </select>
+
+            <div>
+                <select for="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                
+                <select for="type-of-user-field">
+                    <option value="mentor">Mentor</option>
+                    <option value="mentee">Mentee</option>
+                </select>
+            </div>
+
+           
 
             <p>About you:</p>
             <textarea name="bio" cols="20" rows="10"></textarea>
             
             <br>
 
-            <button formaction="login-page.html">Sign Up</button>
+            <button formaction="login-page.html">Submit</button>
 
         </form>
 

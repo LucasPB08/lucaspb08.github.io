@@ -1,12 +1,21 @@
 #header{
     display: flex;
     height: 100px;
+    width: 100%;
 
     align-items: center;
     justify-content: space-around;
     
-    background-color: darkcyan;
+    background-color: #124338;
 
+}
+
+#wrap{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border-radius: 50px;
+    height: 100%;
 }
 
 
@@ -23,5 +32,7 @@
 }
 
 body{
-    background-color: gray;
+    margin: 0px;
+    background-color: #056F47;
+    height: 100%;
 }
