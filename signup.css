@@ -15,7 +15,19 @@ form{
     flex-wrap: wrap;
     
     padding: 20px;
+}
 
+form div{
+    display: flex;
+    justify-content: space-around;
+}
+
+form div input{
+    width: 40%
+}
+
+form select{
+    width:40%;
 }
 
 input{

@@ -36,6 +36,16 @@
 ul{
     list-style: none;
     display:flex;
+    justify-content: space-around;
+}
+
+#header-title{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#subsections{
+    flex-grow: 2;
 }
 
 .list-child{
