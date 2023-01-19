@@ -12,7 +12,8 @@ button:hover{
             color: black;
             border: none;
             background: #47AC11;
-            transform: scale(0.95);            
+            transform: scale(0.95); 
+            cursor: pointer;           
 }
 
 input{
